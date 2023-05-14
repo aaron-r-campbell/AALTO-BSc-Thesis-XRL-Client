@@ -1,0 +1,510 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1684073477973979, "dur":1725, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073477975710, "dur":129, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1684073477975848, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1684073477975875, "dur":626, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1684073477976545, "dur":623, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073477977168, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818306, "dur":280, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818586, "dur":75, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818661, "dur":7, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818668, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818689, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818692, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818706, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818709, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818722, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818725, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818732, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818736, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818745, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818748, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818757, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818760, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818768, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818771, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818780, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818783, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818790, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818793, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818802, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818805, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818813, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818833, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478818865, "dur":3806, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1684073477977000, "dur":181, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073477977182, "dur":5147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073477982330, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684073477982522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073478018481, "dur":5212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1684073478023746, "dur":186209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478209962, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073478209974, "dur":1898, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478211919, "dur":43080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478255006, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073478255019, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478256624, "dur":50818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478307447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073478307458, "dur":2575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478310075, "dur":53054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478363136, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073478363147, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478364511, "dur":65207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478429723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073478429733, "dur":7368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478437167, "dur":87238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478524411, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073478524423, "dur":9980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478534460, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478534586, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073478534597, "dur":1713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478536415, "dur":280656, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478817075, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1684073478817084, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1684073478818256, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1684073478818258, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073477977056, "dur":140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073477977196, "dur":5123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073477982328, "dur":194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1684073477982524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478024831, "dur":9949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1684073478034831, "dur":79866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478114704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478114716, "dur":1472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478116333, "dur":47015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478163356, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478163369, "dur":1433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478164853, "dur":49150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478214009, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478214021, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478215539, "dur":49968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478265514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478265525, "dur":5421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478270999, "dur":97191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478368273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478368284, "dur":2306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478370638, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478370726, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478370737, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478372363, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478372426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478372435, "dur":5704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478378184, "dur":49482, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478427671, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478427683, "dur":37025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478464761, "dur":234462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478699228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1684073478699235, "dur":1327, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.XR.Oculus.dll" }}
+,{ "pid":12345, "tid":2, "ts":1684073478700605, "dur":117707, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073477977116, "dur":91, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073477977207, "dur":5121, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073477982336, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684073477982459, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073477984348, "dur":2043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1684073477986433, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684073477986485, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073477986781, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1684073477987844, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684073477987880, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073477987926, "dur":1065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1684073477989044, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684073477989097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073477989106, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1684073477990587, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073477990644, "dur":23, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073477990940, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073477992819, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073477992910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073477992915, "dur":20795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478013761, "dur":88264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478102031, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478102042, "dur":3057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478105146, "dur":74270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478179422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478179433, "dur":7146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478186631, "dur":48933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478235572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478235584, "dur":7744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478243372, "dur":61114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478304493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478304505, "dur":4730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478309285, "dur":59012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478368300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478368307, "dur":2202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478370553, "dur":230971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478601529, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478601539, "dur":2869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478604474, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478604543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478604554, "dur":1719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478606323, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478606374, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478606384, "dur":6739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478613177, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478613231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478613242, "dur":1303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478614597, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478614658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478614668, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478616145, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478616220, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478616229, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478618306, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478618390, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478618400, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478620612, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478620667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478620677, "dur":1647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478622378, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478622430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478622439, "dur":1679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478624166, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478624228, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478624274, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478625963, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478626015, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478626025, "dur":2907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478628982, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478629032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478629042, "dur":1341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478630431, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478630483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478630493, "dur":2226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478632774, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478632825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478632835, "dur":4650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478637536, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478637586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478637596, "dur":7981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478645624, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478645674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478645684, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478647425, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478647471, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478647482, "dur":1411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478648939, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478648984, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478648993, "dur":6449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478655497, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Plugins/x86_64/OculusXRPlugin.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478655554, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478659919, "dur":5020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Plugins/x86_64/OculusXRPlugin.dll" }}
+,{ "pid":12345, "tid":3, "ts":1684073478664991, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":3, "ts":1684073478665042, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478665492, "dur":1550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/UnitySubsystems/OculusXRPlugin/UnitySubsystemsManifest.json" }}
+,{ "pid":12345, "tid":3, "ts":1684073478667089, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1684073478667137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478667185, "dur":3251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1684073478670759, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684073478670809, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478670819, "dur":4762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684073478675659, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684073478675707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478675745, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684073478677836, "dur":1072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1684073478678913, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478678922, "dur":3396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":3, "ts":1684073478682371, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684073478682442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478682450, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1684073478684123, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684073478684171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478684177, "dur":1805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1684073478686029, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1684073478686180, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1684073478686189, "dur":1632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1684073478687863, "dur":130441, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073477977179, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073477977179, "dur":5138, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073477982339, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1684073477982345, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073477982477, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1684073477982484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073477992443, "dur":1269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/app.info" }}
+,{ "pid":12345, "tid":4, "ts":1684073477993714, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser.exe" }}
+,{ "pid":12345, "tid":4, "ts":1684073477993759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073477993765, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser.exe" }}
+,{ "pid":12345, "tid":4, "ts":1684073477995833, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1684073477995892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073477996252, "dur":6683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1684073478002992, "dur":36726, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478039724, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478039856, "dur":1984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478041885, "dur":54717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478096608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478096619, "dur":3514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478100179, "dur":68847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478169033, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478169045, "dur":1874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478170967, "dur":79968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478250940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478250950, "dur":2004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478253038, "dur":52703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478305746, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478305758, "dur":1430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478307238, "dur":51173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478358474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478358487, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478360453, "dur":61456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478421924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478421958, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478424007, "dur":69684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478493695, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478493704, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478495180, "dur":143677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478638862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478639091, "dur":2128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478641269, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478641322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478641370, "dur":1377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478642794, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478642844, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478642855, "dur":2139, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478645046, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478645097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478645107, "dur":5049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478650203, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478650252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478650262, "dur":1487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478651805, "dur":47071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478698880, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1684073478698890, "dur":1456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1684073478700389, "dur":117947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684073477977234, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684073477977235, "dur":5118, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684073477982354, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684073477982514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684073478023089, "dur":2078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1684073478025252, "dur":40299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478065559, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684073478065571, "dur":2696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478068314, "dur":37718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478106037, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684073478106049, "dur":4753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478110857, "dur":214613, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478325690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684073478325702, "dur":2323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478328070, "dur":184592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478512668, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684073478512680, "dur":1785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478514512, "dur":165374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478679890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1684073478679900, "dur":9712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1684073478689656, "dur":128678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073477977315, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073477977316, "dur":5018, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073477982337, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1684073477982472, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073477991690, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1684073477993350, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1684073477993416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073477993423, "dur":2463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":6, "ts":1684073477995933, "dur":141371, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478137309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073478137320, "dur":1869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478139238, "dur":191953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478331199, "dur":164, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073478331374, "dur":2294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478333714, "dur":31043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478364761, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073478364769, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478366204, "dur":59296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478425506, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073478426063, "dur":3153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478429268, "dur":261868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478691141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1684073478691152, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1684073478693158, "dur":125172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073477977371, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073477977372, "dur":4959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073477982332, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1684073477982459, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073477984092, "dur":2263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1684073477986406, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684073477986455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073477987008, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1684073477987985, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684073477988039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073477988048, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1684073477989295, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1684073477989337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073477989344, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1684073477990524, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1684073477990573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073477990583, "dur":1652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1684073477992288, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073477992349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073477992408, "dur":6373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073477998832, "dur":81258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478080097, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073478080109, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.XR.LegacyInputHelpers.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478086210, "dur":33436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478119653, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073478119665, "dur":1379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478121092, "dur":129771, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478250936, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073478250950, "dur":2086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478253083, "dur":31504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478284595, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073478284608, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478286910, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478286959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073478286969, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478288218, "dur":44077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478332301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073478332311, "dur":5498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478337854, "dur":61131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478398991, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073478399002, "dur":2414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478401466, "dur":87361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478488834, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073478488846, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478490538, "dur":185203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478675745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1684073478675753, "dur":13312, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.XR.Interaction.Toolkit.dll" }}
+,{ "pid":12345, "tid":7, "ts":1684073478689116, "dur":129185, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073477977415, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073477977415, "dur":4924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073477982344, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684073477982503, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478005166, "dur":1625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1684073478006834, "dur":79618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478086459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478086470, "dur":8645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478095481, "dur":50693, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478146180, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478146191, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478147948, "dur":78054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478226009, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478226020, "dur":2156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478228231, "dur":42177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478270415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478270427, "dur":8894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SpatialTracking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478279394, "dur":85331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478364730, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478364742, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478366442, "dur":39554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478406002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478406014, "dur":7524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478413595, "dur":55737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478469338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478469350, "dur":1748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478471166, "dur":58672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478529844, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478529861, "dur":4830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.XR.Management.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478534741, "dur":147844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478682589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1684073478682714, "dur":9823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":8, "ts":1684073478692683, "dur":125641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684073477977461, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684073477977462, "dur":4880, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684073477982342, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1684073477982497, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684073478017779, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":9, "ts":1684073478019574, "dur":67155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478086746, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684073478086755, "dur":1917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478088727, "dur":297258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478385993, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684073478386005, "dur":7828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478393880, "dur":99459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478493345, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684073478493356, "dur":1653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478495057, "dur":106358, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478601423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684073478601435, "dur":2883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478604377, "dur":153133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478757516, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1684073478757527, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":9, "ts":1684073478759321, "dur":58986, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073477977515, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073477977516, "dur":4836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073477982353, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1684073477982513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478016218, "dur":2369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1684073478018824, "dur":46747, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478065576, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478065585, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478067730, "dur":67998, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478135736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478135747, "dur":1290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478137122, "dur":73914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478211042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478211053, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478212508, "dur":62790, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478275305, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478275328, "dur":11303, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478286681, "dur":71689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478358470, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478358593, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478360546, "dur":129894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478490448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478490460, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478492421, "dur":160261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478652687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478652699, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.XR.CoreUtils.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478654897, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Plugins/x86_64/OVRPlugin.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478654954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478659739, "dur":17921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Plugins/x86_64/OVRPlugin.dll" }}
+,{ "pid":12345, "tid":10, "ts":1684073478677708, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1684073478677870, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478677879, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1684073478679008, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1684073478679049, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478679056, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1684073478681779, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1684073478681823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478681832, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1684073478683341, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1684073478683441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478683449, "dur":1483, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1684073478684982, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1684073478685033, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1684073478685040, "dur":2320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1684073478687437, "dur":130888, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684073477977565, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684073477977565, "dur":4783, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684073477982350, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1684073477982493, "dur":26, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684073478016626, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1684073478019377, "dur":83897, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684073478103280, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684073478103292, "dur":8248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684073478111604, "dur":564941, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684073478676556, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1684073478676565, "dur":11995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1684073478688618, "dur":129684, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073477977605, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073477977605, "dur":4739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073477982348, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684073477982487, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478004745, "dur":2024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1684073478006852, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478006910, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478007123, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478008813, "dur":71362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478080179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478080188, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478081967, "dur":91628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478173602, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478173615, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478175417, "dur":81895, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478257318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478257329, "dur":1891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478259271, "dur":74673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478333948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478333958, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478336638, "dur":29009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478365652, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478365662, "dur":1476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478367177, "dur":61093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478428276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478428384, "dur":22159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478450597, "dur":83024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478535644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478556891, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478558536, "dur":125397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478683937, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1684073478683945, "dur":5009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/aaron/Desktop/XRL Browser Demo/XRL Browser_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1684073478689002, "dur":129316, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1684073478825599, "dur":2859, "ph":"X", "name": "ProfilerWriteOutput" }
+,
